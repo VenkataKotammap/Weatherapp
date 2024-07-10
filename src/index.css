@@ -1,0 +1,57 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+.container{
+  background: #EDF0F6;
+  background: linear-gradient(354deg,#137DF5 0%, #14B1F8 100%);
+  width:320px;
+  height:600px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container_date{
+  color:white;
+  margin-top: 76px;
+  opacity: 47%;
+  font-size: 20px;
+  font-weight: 400;
+
+}
+.container_city{
+  margin-top: 1rem;
+  font-size: 37px;
+  font-weight: 700;
+  color: white;
+}
+.container_img{
+  position: relative;
+  top: -20px;
+}
+.container_degree{
+  font-size: 50px;
+  font-weight: 800;
+  color: white;
+  position: relative;
+  top: -20px;
+}
+.country_per{
+  position: relative;
+  top: -15px;
+  color: white;
+  font-size: 18px;
+}
+.input{
+  border:none;
+  padding: 1rem;
+  border-radius: 0px 0px 0px 15px;
+  background: #e8e8e8;
+  position: relative;
+  top: -2px;
+}
